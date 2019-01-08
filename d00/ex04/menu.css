@@ -1,0 +1,63 @@
+div {
+    font-family:fantasy;
+}
+
+a, a:hover, a:visited, a:focus{
+    color:inherit;
+    text-decoration: none;
+}
+
+ul li{
+    display: none;
+    padding:12px 10px 15px 20px;
+    border-top:1px solid #000000;
+}
+
+ul li:first-child{
+    display: block;
+    border-top:0px;
+    padding-left:10px;
+}
+
+/*show menu stuff when hover over with mouse*/
+ul:hover li{
+    display:block;
+}
+
+ul{
+    width:150px;
+    padding:0px;
+    float:left;
+}
+
+ul.burgers{
+    background-color:#d6cbd3;
+}
+
+ul.pizzas{
+    background-color:#eca1a6;
+}
+
+ul.salads{
+    background-color:#bdcebe;
+}
+
+ul.soups{
+    background-color:#ada397;
+}
+
+ul.burgers:hover li:first-child{
+    background-color: #6b5b95;
+}
+
+ul.pizzas:hover li:first-child{
+    background-color: #d64161;
+}
+
+ul.salads:hover li:first-child{
+    background-color: #4CAF50;
+}
+
+ul.soups:hover li:first-child{
+    background-color: #c1946a;
+}

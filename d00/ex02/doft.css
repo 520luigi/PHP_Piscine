@@ -1,0 +1,174 @@
+html {
+    background-color: #464646;
+    margin: 10px 0 0 10px;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1420px;
+}
+/*Add border radius to all elements in the html, shade, and bg color*/
+div.topbar, .left-menu, .right-menu, .content, .green-box {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+
+/*Deals with topbar*/
+div.topbar {
+    position: relative;
+    height: 140px;
+    width: 1420px;
+}
+
+img.top-banner {
+    height: 110px;
+    margin: 10px 0 0 10px;
+}
+
+img.search {
+    position: absolute;
+    top: 11px;
+    right: 28px;
+}
+
+img.exit, img.refresh {
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+img.exit {
+    bottom: 12px;
+}
+
+img.refresh {
+    top: 12px;
+}
+
+/*Deals with left menu*/
+.left-menu{
+    height: 410px;
+    width: 108px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 32px;
+}
+
+.left-menu img {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.left-menu img.selected {
+    border: 5px solid red;
+    margin: -5px 0 1px -5px;
+    border-radius: 5px;
+}
+
+/*Deals with center content*/
+.content {
+    margin: 20px 0 0 30px;
+    width: 1020px;
+    height: 582px;
+    float: left;
+    position: relative;
+}
+
+.content img {
+    margin: 10px;
+    width: 1000px;
+    height: 562px;
+}
+
+#ikea {
+  width:10%;
+  height: 40px;
+  float: right;
+  margin-top: -22%;
+  margin-right: 55%;
+  position: relative;
+}
+
+#apple {
+  width:20%;
+  height: 43px;
+  float: right;
+  margin-top: -22%;
+  margin-right: 5%;
+  position: relative;
+}
+
+/*Deals with green box*/
+.green-box {
+    position: absolute;
+    background-color: #88ff89;
+    height: 150px;
+    width: 500px;
+    bottom: -95px;
+    left: -250px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.green-box span.big {
+    font-family: Times;
+    font-size: 32px;
+}
+
+.green-box span.red-mark {
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+.green-box span.italic {
+    font-style: italic;
+}
+
+.green-box form {
+    height: 22px;
+}
+
+.green-box form input[type="text"] {
+    margin-left: 2px;
+    width: 376px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    height: 15px;
+}
+
+.green-box form input[type="submit"] {
+    border: 1px solid #a8a4a5;
+    border-radius: 1px;
+    margin-left: 4px;
+    height: 22px;
+    font-size:12px;
+    letter-spacing: 1px;
+
+}
+
+/*Deals with right menu*/
+.right-menu{
+    height: 410px;
+    width: 105px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 35px;
+}
+
+.right-menu img {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.right-menu .wall {
+    content: '';
+    background-image: url('resources/brick.jpg');
+    height: 70px;
+    width: 120px;
+    margin:-5px 0 0 -25px;
+}
