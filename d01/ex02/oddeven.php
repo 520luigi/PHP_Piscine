@@ -5,7 +5,7 @@
         $input = trim(fgets(STDIN));
         if (feof(STDIN))
         {
-            echo "\n";
+            echo ("\n");
             exit();
         }
         if (is_numeric($input))
