@@ -48,9 +48,31 @@ include ("functions/functions.php");
 
                         </span>
                     </div>
-                    <div id="products_box">
-                        <?php getProducts();?>
-                    </div>
+                        <?php
+                        if (isset($_GET['pro_id'])){
+                        $product_id = $_GET['pro_id'];
+                        $get_product = "select * from products where product_id='$product_id'";
+                        $run_product = mysqli_query($con, $get_product);
+                        while($row_product=mysqli_fetch_array($run_product))
+                        {
+                            $product_id = $row_product['product_id'];
+                            $product_title = $row_product['product_title'];
+                            $product_price = $row_product['product_price'];
+                            $product_image = $row_product['product_image'];
+                            $product_desc = $row_product['product_desc'];
+
+                            echo "
+                                <div id='single_product'>
+                                    <h3>$product_title</h3>
+                                    <img src='admin/product_images/$product_image' width='400' height='300'/>
+                                    <p><b> $ $product_price</b></p>
+                                    <p>$product_desc</p>
+                                    <a href='index.php' style='float:left'>Go Back</a>
+                                    <a href='index.php?pro_id=$product_id'><button style='float:right'>Add to Cart</button></a>
+                                </div>
+                            ";
+                        }}
+                        ?>
                 </div>
             </div>
             <div id="footer">

@@ -5,6 +5,7 @@ body {
     width:1000px;
     height:auto;
     margin:auto;
+    background:black;
 }
 
 .header_container {
@@ -66,21 +67,21 @@ body {
 
 #content_area {
     width: 800px;
-    height:800px;
+    height:820px;
     float:right;
-    background:pink
+    background:pink;
 }
 
 #sidebar {
     width:200px;
-    height:800px;
+    height:820px;
     background:#339200;
     float:left;
 }
 
 #sidebar_title {
     margin-top: 25px;
-    background:black;
+    background:orange;
     color:white;
     font-size: 22px;
     font-family:Arial;
@@ -112,9 +113,37 @@ body {
     font-weight: bolder;
 
 }
+
+#shopping_cart
+{
+    width:800px;
+    height:50px;
+    background: black;
+    color:white;
+}
+
+#products_box
+{
+    width:780px;
+    text-align:center;
+    margin-left:30px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#single_product{
+    float:left;
+    margin-left:30px;
+    padding:10px;
+}
+
+#single_product img{
+    border:2px solid black;
+}
+
 #footer {
     width:1000px;
-    height:100px;
+    height:90px;
     background:#185300;
     color:white;
     clear:both;
