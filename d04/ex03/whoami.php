@@ -1,7 +1,7 @@
 <?php
-    session_start();
+session_start();
     if ($_SESSION['loggued_on_user'])
-       echo ("$_SESSION['loggued_on_user']\n");
+        echo ($_SESSION['loggued_on_user']."\n");
     else
-       echo ("ERROR\n");
+        echo ("ERROR\n");
 ?>

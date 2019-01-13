@@ -9,9 +9,9 @@
     if (file_exists("../private/passwd"))
     {
         $account = unserialize(file_get_contents("../private/passwd"));
-        foreach ($account as $user)
+        foreach ($account as $key => $value)
         {
-            if ($user["login"] === $_POST["login"])
+            if ($value["login"] === $_POST["login"])
             {
                 echo ("ERROR\n");
                 return ;
