@@ -17,11 +17,11 @@ include ("functions/functions.php");
 
             <div class="menubar">
                 <ul id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">All Plushies</a></li>
-                    <li><a href="#">My Account</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="all_products.php">All Plushies</a></li>
+                    <li><a href="customer/my_account.php">My Account</a></li>
                     <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">Shopping Cart</a></li>
+                    <li><a href="cart.php">Shopping Cart</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
 
@@ -34,7 +34,7 @@ include ("functions/functions.php");
             </div>
             <div class="content_wrapper">
                 <div id="sidebar">
-                    <div id="sidebar_title">Generations</div>
+                    <div id="sidebar_title">Categories</div>
                     <ul id="cats">
                         <!-- dynamically changing sidebar without change html -->
                         <?php getCats();?>
@@ -42,14 +42,17 @@ include ("functions/functions.php");
                 </div>
 
                 <div id="content_area">
+                    <?php cart(); ?>
                     <div id="shopping_cart">
                         <span style='float:right; font-size:20px; padding:5px; line-height:40px;'>
-                            Welcome Guess! <b style="color:yellow">Shopping Cart</b> Total Items: Total Price: <a href="cart.php" style="color:yellow"> Go to Cart</a>
+                            Welcome Guess! <b style="color:yellow">Shopping Cart</b> Total Items: <?php total_items(); ?> Total Price: <?php total_price(); ?>  <a href="cart.php" style="color:yellow"> Go to Cart</a>
 
                         </span>
                     </div>
+                    <?php echo $ip=getIp(); ?>
                     <div id="products_box">
                         <?php getProducts();?>
+                        <?php getCatProducts();?>
                     </div>
                 </div>
             </div>

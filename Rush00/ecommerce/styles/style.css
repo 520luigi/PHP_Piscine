@@ -5,7 +5,7 @@ body {
     width:1000px;
     height:auto;
     margin:auto;
-    background:black;
+    background:#339200;
 }
 
 .header_container {
@@ -60,21 +60,18 @@ body {
 .content_wrapper
 {
     width:1000px;
-    height:800px;
     margin:auto;
     background:pink;
 }
 
 #content_area {
     width: 800px;
-    height:820px;
     float:right;
     background:pink;
 }
 
 #sidebar {
     width:200px;
-    height:820px;
     background:#339200;
     float:left;
 }
