@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+}
+.main_container{
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+
+.header_container {
+    width:1000px;
+    height:150px;
+    background:white;
+    margin:auto;
+}
+
+.menubar {
+    width:1000px;
+    height: 50px;
+    background:#185300;
+}
+
+#menu {
+    padding:0;
+    margin:0;
+    line-height:50px;
+}
+
+#menu li {
+    list-style:none;
+    display:inline;
+}
+
+#menu a {
+    text-decoration:none;
+    color:white;
+    padding:8px;
+    margin:5px;
+    font-size:18px;
+    font-family:Arial;
+}
+
+#menu a:hover {
+    color:orange;
+    font-weight: bolder;
+}
+
+#form {
+    margin-left: 8px;
+    padding-right:8px;
+}
+
+#banner {
+    float:left;
+    width:1000px;
+    height:150px;
+}
+
+.content_wrapper
+{
+    width:1000px;
+    height:800px;
+    margin:auto;
+    background:pink;
+}
+
+#content_area {
+    width: 800px;
+    height:800px;
+    float:right;
+    background:pink
+}
+
+#sidebar {
+    width:200px;
+    height:800px;
+    background:#339200;
+    float:left;
+}
+
+#sidebar_title {
+    margin-top: 25px;
+    background:black;
+    color:white;
+    font-size: 22px;
+    font-family:Arial;
+    padding:10px;
+    text-align: center;
+}
+
+#cats {
+    padding:0;
+    text-align: center;
+}
+
+#cats li {
+    list-style:none;
+    margin:10px;
+}
+
+#cats a {
+    color:white;
+    padding:8px;
+    margin:10px;
+    font-size:25px;
+    font-family:Arial;
+    text-decoration: none;
+}
+
+#cats a:hover {
+    color:orange;
+    font-weight: bolder;
+
+}
+#footer {
+    width:1000px;
+    height:100px;
+    background:#185300;
+    color:white;
+    clear:both;
+}
