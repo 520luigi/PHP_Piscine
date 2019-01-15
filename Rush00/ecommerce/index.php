@@ -19,10 +19,9 @@ include ("functions/functions.php");
                 <ul id="menu">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="all_products.php">All Plushies</a></li>
-                    <li><a href="customer/my_account.php">My Account</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="customer_login.php">Login</a></li>
                     <li><a href="cart.php">Shopping Cart</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contact_us.php">Contact Us</a></li>
                 </ul>
 
                 <div id="form">
@@ -49,7 +48,6 @@ include ("functions/functions.php");
 
                         </span>
                     </div>
-                    <?php echo $ip=getIp(); ?>
                     <div id="products_box">
                         <?php getProducts();?>
                         <?php getCatProducts();?>

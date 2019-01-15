@@ -24,3 +24,12 @@ and port. I need the files run on the browser before using curl to call on my te
 
 ### Day 04
 Did 4/5 Exercises, all focused on login, modify passwords, and the like.
+
+### RUSH00
+Did the ecommerce website of Pokemon Plushies. Took a very long time during the past two
+days because it was supposed to be from scratch. I used Udemy tutorial to make this. There are
+quite a few bugs around like not being able to change multiply quantities of plushies. Or that
+if you got to certain pages, the add to cart button won't work. I know that these bugs are fixable
+over time, but this is only a 2 day project. It was mad fun, and I got in less than 2 hours
+of sleep yesterday, but was worth the fun. I turned in a mySQL dump file and a install.php file that
+both initialize the database. In case one doesn't work, I got the other.

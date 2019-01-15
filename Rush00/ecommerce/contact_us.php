@@ -41,35 +41,17 @@ include ("functions/functions.php");
                 </div>
 
                 <div id="content_area">
+                    <?php cart(); ?>
                     <div id="shopping_cart">
                         <span style='float:right; font-size:20px; padding:5px; line-height:40px;'>
-                            Welcome Guess! <b style="color:yellow">Shopping Cart</b> Total Items: <?php total_items(); ?> Total Price: <?php total_price(); ?> <a href="cart.php" style="color:yellow"> Go to Cart</a>
+                            Welcome Guess! <b style="color:yellow">Shopping Cart</b> Total Items: <?php total_items(); ?> Total Price: <?php total_price(); ?>  <a href="cart.php" style="color:yellow"> Go to Cart</a>
 
                         </span>
                     </div>
                     <div id="products_box">
-                        <?php
-                        $get_product = "select * from products";
-                        $run_product = mysqli_query($con, $get_product);
-                        while($row_product=mysqli_fetch_array($run_product))
-                        {
-                            $product_id = $row_product['product_id'];
-                            $product_cat = $row_product['product_cat'];
-                            $product_title = $row_product['product_title'];
-                            $product_price = $row_product['product_price'];
-                            $product_image = $row_product['product_image'];
-
-                            echo "
-                                <div id='single_product'>
-                                    <h3>$product_title</h3>
-                                    <img src='admin/product_images/$product_image' width=180px, height=180px />
-                                    <p><b>Price: $ $product_price</b></p>
-                                    <a href='details.php?pro_id=$product_id'style='float:left'>Details</a>
-                                    <a href='index.php?pro_id=$product_id'><button style='float:right'>Add to Cart</button></a>
-                                </div>
-                            ";
-                        }
-                        ?>
+                        <h2>Contact Us</h2>
+                        <p>Address: 1234 Pokemon Way, Kanto Region, Japan, 424242</p>
+                        <p>Email: PokemonMaster@pokemon.com
                     </div>
                 </div>
             </div>
