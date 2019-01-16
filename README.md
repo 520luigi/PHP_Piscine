@@ -42,5 +42,5 @@ On the shell, use code word like: 'use' to use which database, 'show' on tables,
 sql terminal. I can use 'source PATH', where path is the location of my sql file, to run my sql files from
 another location. Else, just cat the file contents and paste directly into the sql terminal.
 Also, use the resource 'base-student.sql' in the beginning so that you have all the necessary tables for all the
-later exercises. Do this by running it with source 'PATH'.
+later exercises. Do this by running it with source 'PATH'.\
 http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm  <--sql cheatsheet
