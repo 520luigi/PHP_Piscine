@@ -35,6 +35,7 @@ of sleep yesterday, but was worth the fun. I turned in a mySQL dump file and a i
 both initialize the database. In case one doesn't work, I got the other.
 
 ### Day 05 (SQL Database)
+Did 21/21 Exercises, they are simple and short, but there could be errors. We'll see.\
 To use MAMP SQL without downloading, go to MAMP applications folder so that whenever I type mysql on terminal,
 it automatically goes to "PATH=/Applications/MAMP/Library/bin:$PATH". Put this path in my .zshrc file.
 If I have password and username access, then run: "mysql -uroot -proot" to get to mysql shell.
