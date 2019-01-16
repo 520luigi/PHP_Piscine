@@ -35,7 +35,8 @@ of sleep yesterday, but was worth the fun. I turned in a mySQL dump file and a i
 both initialize the database. In case one doesn't work, I got the other.
 
 ### Day 05 (SQL Database)
-Did 21/21 Exercises, they are simple and short, but there could be errors. We'll see.\
+Did 21/21 Exercises, they are simple and short, but there could be errors. We'll see.
+
 To use MAMP SQL without downloading, go to MAMP applications folder so that whenever I type mysql on terminal,
 it automatically goes to "PATH=/Applications/MAMP/Library/bin:$PATH". Put this path in my .zshrc file.
 If I have password and username access, then run: "mysql -uroot -proot" to get to mysql shell.
@@ -43,5 +44,6 @@ On the shell, use code word like: 'use' to use which database, 'show' on tables,
 sql terminal. I can use 'source PATH', where path is the location of my sql file, to run my sql files from
 another location. Else, just cat the file contents and paste directly into the sql terminal.
 Also, use the resource 'base-student.sql' in the beginning so that you have all the necessary tables for all the
-later exercises. Do this by running it with source 'PATH'.\
+later exercises. Do this by running it with source 'PATH'.
+
 http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm  <--sql cheatsheet
