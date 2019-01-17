@@ -49,6 +49,10 @@ later exercises. Do this by running it with source 'PATH'.
 http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm  <--sql cheatsheet
 
 ### Day 06 (Object Oriented PHP)
-Use the given main_ex##.out to check the output if I compile main_##.php with my file. This ensures that the opp code that
-I made has the same output. Once the output is the same, I can say that the exercise I did is correct. The problems are very long,
-might just do like 3 or 4 of them if possible. 
+Did 4/6 Exercises. These exercises are really long. Each of them takes hours to do. They are not hard, but mostly use mathematical
+equations to solve like vertexes, vectors, matrices which is purely math related questions. Just have to convert math to code mostly
+and takes a dang long time.
+
+To test the exercises: Use the given main_ex##.out to check the output if I compile main_##.php with my file. This ensures that the opp code
+that I made has the same output. Once the output is the same, I can say that the exercise I did is correct. I included header of files, so
+that it should work optimally with just the top part given.
