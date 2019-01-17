@@ -1,28 +1,28 @@
 # PHP_Piscine
 Learn web development in this mini piscine.
 
-### Day 00 (HTML/CSS)
+### Day 00 (HTML/CSS) 90/100
 Completed 5/6 Exercises
 
-### Day 01 (Intro to PHP)
+### Day 01 (Intro to PHP) 62/100
 Completed 12/14 Exercises (The 2nd ssap is not right, but o-well). Might only
 get credit of 9/14. For 2nd do_op. I had to take consideration of negative value
 case like "4 - -3" and my program doesn't. So it is incorrect implementation.
 Also, when I test the files for special characters like # and * will break the
 terminal commands, so be sure to use backslash # or backslash * instead.
 
-### Day 02 (Harder PHP)
+### Day 02 (Harder PHP) 0/100
 Did 1/6 Exercises, the 2nd exercise has a wrong output on PDF. I'm gonna skip
 the day and move on to day 03. Gonna take a lost here b/c it will take a while
 to do this day and I don't understand much.
 
-### Day 03 (myphpAdmin, MAMP)
+### Day 03 (myphpAdmin, MAMP) 92/100
 Did 6/7 Exercises, the 1st exercise tells us to use PAMP tool from 42, but it is
 outdated, so I used MAMP instead. Basically, I opened up MAMP and set root directory
 to where my exercises are. There I can access them on the browser using local host
-and port. I need the files run on the browser before using curl to call on my terminal.
+and port. I need the files to run on the browser before using curl to call on my terminal.
 
-### Day 04 (MAMP HTML/PHP Integration, Login/AUTH/etc)
+### Day 04 (MAMP HTML/PHP Integration, Login/AUTH/etc) 57/100
 Did 4/5 Exercises, all focused on login, modify passwords, and the like.
 
 ### RUSH00 (Ecommerce Website)
@@ -34,8 +34,8 @@ over time, but this is only a 2 day project. It was mad fun, and I got in less t
 of sleep yesterday, but was worth the fun. I turned in a mySQL dump file and a install.php file that
 both initialize the database. In case one doesn't work, I got the other.
 
-### Day 05 (SQL Database)
-Did 21/21 Exercises, they are simple and short, but there could be errors. We'll see.
+### Day 05 (SQL Database) 95/100
+Did 21/21 Exercises, they are simple and short, but there could be errors. We'll see. This is moulinette graded, not people.
 
 To use MAMP SQL without downloading, go to MAMP applications folder so that whenever I type mysql on terminal,
 it automatically goes to "PATH=/Applications/MAMP/Library/bin:$PATH". Put this path in my .zshrc file.
@@ -47,3 +47,8 @@ Also, use the resource 'base-student.sql' in the beginning so that you have all 
 later exercises. Do this by running it with source 'PATH'.
 
 http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm  <--sql cheatsheet
+
+### Day 06 (Object Oriented PHP)
+Use the given main_ex##.out to check the output if I compile main_##.php with my file. This ensures that the opp code that
+I made has the same output. Once the output is the same, I can say that the exercise I did is correct. The problems are very long,
+might just do like 3 or 4 of them if possible. 
