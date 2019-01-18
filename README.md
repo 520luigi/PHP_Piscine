@@ -51,8 +51,11 @@ http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm  <--sql cheatsheet
 ### Day 06 (Object Oriented PHP)
 Did 4/6 Exercises. These exercises are really long. Each of them takes hours to do. They are not hard, but mostly use mathematical
 equations to solve like vertexes, vectors, matrices which is purely math related questions. Just have to convert math to code mostly
-and takes a dang long time.
+despite how long it takes...
 
 To test the exercises: Use the given main_ex##.out to check the output if I compile main_##.php with my file. This ensures that the opp code
 that I made has the same output. Once the output is the same, I can say that the exercise I did is correct. I included header of files, so
-that it should work optimally with just the top part given.
+that it should work optimally without having to add any lines when I test them.
+
+### Day 07 (Object Oriented PHP Continued)
+Did 7/7 Exercises. These exercises are short and based on Game of Throne. It basically utilized test cases, around you have to make simple class to complement them. Pretty decent and fun.
