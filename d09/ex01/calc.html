@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <form>
+            Value 1: <input type="text" id="value1">
+            Operators:
+            <select id="operators">
+                <option value = "add">+</option>
+                <option value = "min">-</option>
+                <option value = "mul">*</option>
+                <option value = "div">/</option>
+                <option value = "mod">%</option>
+            </select>
+            Value 2: <input type="text" id="value2">
+            <button type="button" onclick="calculate()">Try Me!</button>
+        </form>
+        <script>
+          var value1;
+          var value2;
+          var op;
+
+          window.onload = function(){
+            value1 = document.getElementById("value1");
+            value2 = document.getElementById("value2");
+            op = document.getElementById("operators");
+            setInterval("alert('Please, use me...')", 30000)
+          }
+
+          function valid_num(num1, num2){
+            return (num1 >= 0 && Number.isInteger(num1) && num2 >= 0 && Number.isInteger(num2))
+          }
+
+          function calculate(){
+            let a = Number(value1.value);
+            let b = Number(value2.value);
+            if (!valid_num(a, b)){
+              alert("Error :(");
+              return (false);
+            }
+            switch (op.value) {
+              case ('add'): result(a + b); break;
+              case ('min'): result(a - b); break;
+              case ('mul'): result(a * b); break;
+              case ('div'):
+                if (b === 0) result("It’s over 9000!");
+                else result(a / b);
+                break;
+              case ('mod'):
+                if (b === 0) result("It’s over 9000!");
+                else result(a % b);
+                break;
+              default: result("Nothing here ~"); break;
+            }
+          }
+
+          function result(value){
+            console.log(value);
+            alert(value);
+          }
+        </script>
+    </body>
+</html>
