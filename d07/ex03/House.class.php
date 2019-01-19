@@ -1,5 +1,5 @@
 <?php
-    class House
+    abstract class House
     {
         public function introduce()
         {

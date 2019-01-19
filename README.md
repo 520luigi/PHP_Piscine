@@ -25,7 +25,7 @@ and port. I need the files to run on the browser before using curl to call on my
 ### Day 04 (MAMP HTML/PHP Integration, Login/AUTH/etc) 57/100
 Did 4/5 Exercises, all focused on login, modify passwords, and the like.
 
-### RUSH00 (Ecommerce Website)
+### RUSH00 (Ecommerce Website) 100/100
 Did the ecommerce website of Pokemon Plushies. Took a very long time during the past two
 days because it was supposed to be from scratch. I used Udemy tutorial to make this. There are
 quite a few bugs around like not being able to change multiply quantities of plushies. Or that
@@ -33,6 +33,9 @@ if you got to certain pages, the add to cart button won't work. I know that thes
 over time, but this is only a 2 day project. It was mad fun, and I got in less than 2 hours
 of sleep yesterday, but was worth the fun. I turned in a mySQL dump file and a install.php file that
 both initialize the database. In case one doesn't work, I got the other.
+
+Honestly my sites have a lot of bugs. It is not optimized and missed a lot of features of customers and
+admin, but my graders were very generous, so I got full credit despite not deserving it.
 
 ### Day 05 (SQL Database) 95/100
 Did 21/21 Exercises, they are simple and short, but there could be errors. We'll see. This is moulinette graded, not people.
@@ -57,5 +60,11 @@ To test the exercises: Use the given main_ex##.out to check the output if I comp
 that I made has the same output. Once the output is the same, I can say that the exercise I did is correct. I included header of files, so
 that it should work optimally without having to add any lines when I test them.
 
-### Day 07 (Object Oriented PHP Continued)
-Did 7/7 Exercises. These exercises are short and based on Game of Throne. It basically utilized test cases, around you have to make simple class to complement them. Pretty decent and fun.
+### Day 07 (Object Oriented PHP Continued) 85/100
+Did 7/7 Exercises. These exercises are short and based on Game of Throne. It basically utilized test cases, around you have to make simple class to complement them. Pretty decent and fun. Should use abstract, so that test2 of ex06 doesn't output anything but fatal error...Also messed up ex03 by not including abstract before class. I fixed it for now, but the score is already decided.
+
+### Day 08 (Object Oriented PHP, making a Starships Battle Game) 0/100
+There's only one exercise and that is to make a Starships Battle Game in php. This is honestly a lot of work
+for just one day period. Even more work than doing the ecommerce site with a partner, so I'll skip this one...
+
+### Day 09 (JS, JQuery, & More!)
