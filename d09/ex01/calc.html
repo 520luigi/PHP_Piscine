@@ -28,17 +28,17 @@
             value1 = document.getElementById("value1");
             value2 = document.getElementById("value2");
             op = document.getElementById("operators");
-            setInterval("alert('Please, use me...')", 30000)
+            setInterval("alert('Please, use me...')", 30000);
           }
 
-          function valid_num(num1, num2){
-            return (num1 >= 0 && Number.isInteger(num1) && num2 >= 0 && Number.isInteger(num2))
+          function validNum(num1, num2){
+            return (num1 >= 0 && Number.isInteger(num1) && num2 >= 0 && Number.isInteger(num2));
           }
 
           function calculate(){
             let a = Number(value1.value);
             let b = Number(value2.value);
-            if (!valid_num(a, b)){
+            if (!validNum(a, b)){
               alert("Error :(");
               return (false);
             }
@@ -57,7 +57,7 @@
               default: result("Nothing here ~"); break;
             }
           }
-
+          
           function result(value){
             console.log(value);
             alert(value);

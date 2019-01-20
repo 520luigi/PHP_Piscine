@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <form action="" id="calc">
+        Value 1: <input type="text" id="value1">
+        <select id="operators">
+            <option value="add">+</option>
+            <option value="min">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+            <option value="mod">%</option>
+        </select>
+        Value 2: <input type="text" id="value2">
+        <input type="submit" value="Try me!">
+    </form>
+    <script>
+        var calc;
+        var value1;
+        var value2;
+        var op;
+        
+        $(document).ready(function(){
+            calc = $('#calc');
+            value1 = $('#value1');
+            value2 = $('#value2');
+            op = $('#operators');
+            calc.submit(calculate);
+            setInterval("alert('Please, use me...')", 30000);
+        });
+
+        function validNum(num1, num2){
+          return (num1 >= 0 && Number.isInteger(num1) && num2 >= 0 && Number.isInteger(num2));
+        }
+
+        function calculate() {
+            var a = Number(value1.val());
+            var b = Number(value2.val());
+            if (!validNum(a, b)) {
+                alert("Error :(");
+                return false;
+            }
+            switch (op.val()) {
+                case ('add'): result(a + b); break;
+                case ('min'): result(a - b); break;
+                case ('mul'): result(a * b); break;
+                case ('div'):
+                    if (b === 0) result("It’s over 9000!");
+                    else result(a / b);
+                    break;
+                case ('mod'):
+                    if (b === 0) result("It’s over 9000!");
+                    else result(a / b);
+                    break;
+                default: result("Nothing here ~"); break;
+            }
+        }
+
+        function result(value) {
+            console.log(value);
+            alert(value);
+        }
+    </script>
+</body>
+</html>
