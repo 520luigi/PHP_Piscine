@@ -54,7 +54,7 @@ http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm  <--sql cheatsheet
 ### Day 06 (Object Oriented PHP)
 Did 4/6 Exercises. These exercises are really long. Each of them takes hours to do. They are not hard, but mostly use mathematical
 equations to solve like vertexes, vectors, matrices which is purely math related questions. Just have to convert math to code mostly
-despite how long it takes...
+despite how long it takes...Doing up to 4 problems only gets you 40% which is not a passing grade :(
 
 To test the exercises: Use the given main_ex##.out to check the output if I compile main_##.php with my file. This ensures that the opp code
 that I made has the same output. Once the output is the same, I can say that the exercise I did is correct. I included header of files, so
@@ -68,3 +68,9 @@ There's only one exercise and that is to make a Starships Battle Game in php. Th
 for just one day period. Even more work than doing the ecommerce site with a partner, so I'll skip this one...
 
 ### Day 09 (JS, JQuery, & More!)
+Did 4/5 Exercises. Big props to my buddy Chsu for helping me out with javascript and jquery stuff. You are the real boss!
+The exercises deal with making an interactive balloon, calculator, cookies, and others for portion of the day project. 
+
+### RUSH01 (Starships Battle II) 0/100
+This rush project is basically an extension of day08 exercise. It is making of a php object oriented game of
+battleship, so I'm going to skip this one also. Don't think it's needed for me to pass the PHP Piscine.
